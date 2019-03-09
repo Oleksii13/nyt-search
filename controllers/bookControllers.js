@@ -16,7 +16,7 @@ module.exports = {
           author: req.body.volumeInfo.authors,
           description: req.body.volumeInfo.description,
           pageCount: req.body.volumeInfo.pageCount,
-          image: req.body.volumeInfo.imageLinks.smallThumbnail,
+          image: req.body.volumeInfo.imageLinks.thumbnail,
           url: req.body.volumeInfo.previewLink,
           publisher: req.body.volumeInfo.publisher,
           publishedDate: req.body.volumeInfo.publishedDate
